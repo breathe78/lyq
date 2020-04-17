@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BigDecimalDemo/BigDecimalDemo.iml" filepath="$PROJECT_DIR$/BigDecimalDemo/BigDecimalDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClassLoader/ClassLoader.iml" filepath="$PROJECT_DIR$/ClassLoader/ClassLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection/Collection.iml" filepath="$PROJECT_DIR$/Collection/Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection/Reflection.iml" filepath="$PROJECT_DIR$/Reflection/Reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCP/TCP.iml" filepath="$PROJECT_DIR$/TCP/TCP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javatest.iml" filepath="$PROJECT_DIR$/javatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread_create_demo/thread_create_demo.iml" filepath="$PROJECT_DIR$/thread_create_demo/thread_create_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread_lock_demo/thread_lock_demo.iml" filepath="$PROJECT_DIR$/thread_lock_demo/thread_lock_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread_safe_demo/thread_safe_demo.iml" filepath="$PROJECT_DIR$/thread_safe_demo/thread_safe_demo.iml" />
+    </modules>
+  </component>
+</project>
