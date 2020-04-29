@@ -22,6 +22,8 @@ public class demo {
         //比较大小
         System.out.println(new BigDecimal(75000).compareTo(new BigDecimal(75000)) > -1);
         System.out.println(new BigDecimal(75000).compareTo(c) <0);
+        //被除数为0
+        System.out.println(BigDecimal.ZERO.divide(new BigDecimal(900),2,BigDecimal.ROUND_HALF_UP));
 
     }
 
