@@ -30,7 +30,7 @@ public class demo {
     /**
      * bigdecimal µÄÇ§·Ö·û
      */
-    public void qiFenFu() {
+    public void qianFenFu() {
         //Ç§·Ö·û
         DecimalFormat df1 = new DecimalFormat("###,###.##");
         System.out.println(df1.format(1234567.126)); //"1,234,567.12"
