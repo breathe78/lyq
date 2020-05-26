@@ -1,5 +1,4 @@
 javatest.iml
-.idea
-.out
+idea/
 *.iml
-*.class
+target/
