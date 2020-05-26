@@ -2,3 +2,4 @@ javatest.iml
 .idea
 .out
 *.iml
+*.class
