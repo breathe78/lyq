@@ -9,14 +9,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/IO/hello.txt" />
-    <file url="file://$PROJECT_DIR$/IO/hello1.txt" />
-    <file url="file://$PROJECT_DIR$/IO/hello2.txt" />
-    <file url="file://$PROJECT_DIR$/IO/hello3.txt" />
-    <file url="file://$PROJECT_DIR$/IO/hello_gbk.txt" />
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

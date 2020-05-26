@@ -33,6 +33,13 @@ public class FunctionTest {
         return f1.compose(f2).apply(a);
     }
 
+    /**
+     * 先走Function1,再走Function2
+     * @param a
+     * @param f1
+     * @param f2
+     * @return
+     */
     public int computeAndThen(int a, Function<Integer, Integer> f1, Function<Integer, Integer> f2) {
         return f1.andThen(f2).apply(a);
     }
