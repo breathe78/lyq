@@ -11,7 +11,7 @@ public class FunctionTest {
     }
 
     /**
-     * Function实例
+     * Function瀹炰緥
      *
      * @param a
      * @param function
@@ -22,7 +22,7 @@ public class FunctionTest {
     }
 
     /**
-     * 先走Function2，再走Function1
+     * 鍏堣蛋Function2锛屽啀璧癋unction1
      *
      * @param a
      * @param f1
@@ -34,7 +34,7 @@ public class FunctionTest {
     }
 
     /**
-     * 先走Function1,再走Function2
+     * 鍏堣蛋Function1,鍐嶈蛋Function2
      * @param a
      * @param f1
      * @param f2
