@@ -1,14 +1,9 @@
 package bigdecimal;
 
-import Common.CommonUtils;
-import com.sun.deploy.util.ArrayUtil;
-import com.sun.deploy.util.StringUtils;
 
-import javax.sound.midi.Soundbank;
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
-import java.time.LocalDate;
-import java.util.*;
+
 
 /**
  * Created by lyq on 2019/9/25.
@@ -19,19 +14,19 @@ public class demo {
         BigDecimal b = new BigDecimal(74999);
         BigDecimal c = new BigDecimal(75001);
 
-        //±È½Ï´óÐ¡
+        //æ¯”è¾ƒå¤§å°
         System.out.println(new BigDecimal(75000).compareTo(new BigDecimal(75000)) > -1);
         System.out.println(new BigDecimal(75000).compareTo(c) <0);
-        //±»³ýÊýÎª0
+        //è¢«é™¤æ•°ä¸º0
         System.out.println(BigDecimal.ZERO.divide(new BigDecimal(900),2,BigDecimal.ROUND_HALF_UP));
 
     }
 
     /**
-     * bigdecimal µÄÇ§·Ö·û
+     * bigdecimal çš„åƒåˆ†ç¬¦
      */
     public void qianFenFu() {
-        //Ç§·Ö·û
+        //åƒåˆ†ç¬¦
         DecimalFormat df1 = new DecimalFormat("###,###.##");
         System.out.println(df1.format(1234567.126)); //"1,234,567.12"
     }
