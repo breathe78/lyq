@@ -1,6 +1,5 @@
 package Generic;
 
-import com.sun.org.apache.xpath.internal.operations.Or;
 import org.junit.Test;
 
 import java.util.ArrayList;
