@@ -11,13 +11,13 @@ public class TnteratorTest {
         set.add("c");
         set.add("d");
         set.add("e");
-//∑Ω Ω“ª£ª
+//ÊñπÂºè‰∏ÄÔºõ
 //        Iterator iterator = set.iterator();
 //        while (iterator.hasNext()) {
 //            String value = (String) iterator.next();
 //            System.out.println(value);
 //        }
-        //∑Ω Ω∂˛
+        //ÊñπÂºè‰∫å
         for (Iterator iterator = set.iterator(); iterator.hasNext(); ) {
             String value = (String) iterator.next();
             System.out.println(value);
