@@ -19,6 +19,7 @@ public class demo {
         System.out.println(new BigDecimal(75000).compareTo(c) <0);
         //被除数为0
         System.out.println(BigDecimal.ZERO.divide(new BigDecimal(900),2,BigDecimal.ROUND_HALF_UP));
+        System.out.println(BigDecimal.ONE.divide(new BigDecimal("3"),2,BigDecimal.ROUND_HALF_UP));
 
     }
 
