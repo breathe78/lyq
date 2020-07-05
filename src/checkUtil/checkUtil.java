@@ -12,16 +12,16 @@ public class checkUtil {
         if (IDNumber == null || "".equals(IDNumber)) {
             return false;
         }
-        // ¶¨ÒåÅĞ±ğÓÃ»§Éí·İÖ¤ºÅµÄÕıÔò±í´ïÊ½£¨15Î»»òÕß18Î»£¬×îºóÒ»Î»¿ÉÒÔÎª×ÖÄ¸£©
+        // å®šä¹‰åˆ¤åˆ«ç”¨æˆ·èº«ä»½è¯å·çš„æ­£åˆ™è¡¨è¾¾å¼ï¼ˆ15ä½æˆ–è€…18ä½ï¼Œæœ€åä¸€ä½å¯ä»¥ä¸ºå­—æ¯ï¼‰
         boolean matches = Pattern.compile(IDCARDPATTERN).matcher(IDNumber).find();
-        //ÅĞ¶ÏµÚ18Î»Ğ£ÑéÖµ
+        //åˆ¤æ–­ç¬¬18ä½æ ¡éªŒå€¼
         if (matches) {
             if (IDNumber.length() == 18) {
                 try {
                     char[] charArray = IDNumber.toCharArray();
-                    //Ç°Ê®ÆßÎ»¼ÓÈ¨Òò×Ó
+                    //å‰åä¸ƒä½åŠ æƒå› å­
                     int[] idCardWi = {7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2};
-                    //ÕâÊÇ³ıÒÔ11ºó£¬¿ÉÄÜ²úÉúµÄ11Î»ÓàÊı¶ÔÓ¦µÄÑéÖ¤Âë
+                    //è¿™æ˜¯é™¤ä»¥11åï¼Œå¯èƒ½äº§ç”Ÿçš„11ä½ä½™æ•°å¯¹åº”çš„éªŒè¯ç 
                     String[] idCardY = new String[]{"1", "0", "X", "9", "8", "7", "6", "5", "4", "3", "2"};
                     int sum = 0;
                     for (int i = 0; i < idCardWi.length; i++) {
