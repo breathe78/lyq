@@ -1,10 +1,7 @@
 package test;
 
-import com.sun.crypto.provider.HmacPKCS12PBESHA1;
-
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class Hello {
     public static final int a = 12;
