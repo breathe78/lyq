@@ -1,7 +1,5 @@
 package Generic.java1;
 
-import com.sun.org.apache.regexp.internal.REUtil;
-
 import java.util.List;
 
 /**
