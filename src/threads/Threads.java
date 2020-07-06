@@ -11,6 +11,7 @@ public class Threads {
         thread1.setName("way - 3");
         thread1.start();
         System.out.println(Thread.currentThread());
+
     }
 }
 
