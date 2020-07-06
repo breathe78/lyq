@@ -3,8 +3,11 @@ package threads;
 public class Threads {
     public static void main(String[] args) {
         A a = new A();
+        a.setName("way - 1");
         a.start();
-        new Thread(new B()).start();
+        a.setPriority(Thread.MAX_PRIORITY);
+        new Thread(new B(),"way - 2").start();
+        System.out.println(Thread.currentThread());
     }
 }
 
@@ -18,7 +21,7 @@ class A extends Thread {
                 e.printStackTrace();
             }
             if (i % 2 == 0) {
-                System.out.println(i + "------------------------");
+                System.out.println(i + "------------------------" + Thread.currentThread());
             }
         }
     }
@@ -34,7 +37,7 @@ class B implements Runnable {
                 e.printStackTrace();
             }
             if (i % 2 != 0) {
-                System.out.println(i);
+                System.out.println(i + "*********" + Thread.currentThread());
             }
         }
     }
