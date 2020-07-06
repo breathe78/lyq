@@ -7,6 +7,9 @@ public class Threads {
         a.start();
         a.setPriority(Thread.MAX_PRIORITY);
         new Thread(new B(),"way - 2").start();
+        Thread thread1 = new Thread(new B());
+        thread1.setName("way - 3");
+        thread1.start();
         System.out.println(Thread.currentThread());
     }
 }
