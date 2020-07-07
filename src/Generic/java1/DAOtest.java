@@ -1,11 +1,5 @@
 package Generic.java1;
 
-import Generic.Order;
-import Generic.SubOrder;
-
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by lyq on 2019/10/29.
  */
