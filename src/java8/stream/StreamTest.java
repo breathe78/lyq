@@ -1,4 +1,4 @@
-package java8;
+package java8.stream;
 
 import java.util.IntSummaryStatistics;
 import java.util.stream.Stream;
