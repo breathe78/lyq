@@ -4,10 +4,7 @@ import test.User;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 public class mainTest {
     public static void main(String[] args) {
@@ -31,6 +28,9 @@ public class mainTest {
 //        System.out.println(string);
 
         System.out.println(1 > 2);
+        Runnable runnable = () -> System.out.println("hello");
+        runnable.run();
+
     }
 
     public static boolean isNumer(String str){
