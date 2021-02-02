@@ -4,4 +4,4 @@ idea/
 /target/
 /out/
 *.class
-./idea
+.idea/
